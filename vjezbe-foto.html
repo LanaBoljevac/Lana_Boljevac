@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa radova - Lana Boljevac</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e1;
+            color: #3d3d3d;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .gallery img {
+            max-width: 250px;
+            height: auto;
+            border: 2px solid #d4a373;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            display: block;
+            margin-top: 40px;
+            color: #5e4c3b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #8b5e3c;
+        }
+    </style>
+</head>
+<body>
+    <h2>Moji prijašnji radovi</h2>
+
+    <div class="gallery">
+        <img src="img/mojrad_1.jpg" alt="rad 1">
+        <img src="img/mojrad_2.jpg" alt="rad 2">
+        <img src="img/mojrad_3.jpg" alt="rad 3">
+        <img src="img/mojrad_4.jpg" alt="rad 4">
+        <img src="img/mojrad_5.gif" alt="rad 5">
+        <img src="img/mojrad_6.jpg" alt="rad 6">
+    </div>
+
+    <a href="index.html">Natrag na početnu</a>
+</body>
+</html>
+
